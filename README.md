@@ -52,16 +52,17 @@ Data byla vložena z těchto zdrojových tabulek:
 ## Výzkumné otázky
 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
     Analýza meziročních rozdílů mezd ukazuje, že mzdy neklesají ve všech odvětvích, ale některá vykazují meziroční pokles. Například:
-```bash
-| Rok  | Odvětví                                              | Průměrná mzda | Meziroční rozdíl|
-|------|------------------------------------------------------|---------------|-----------------|
-| 2009 | Zemědělství, lesnictví, rybářství                    | 17 419        | -109            |
-| 2021 | Zemědělství, lesnictví, rybářství                    | 27 378        | -1 082          |
-| 2009 | Těžba a dobývání                                     | 28 161        | -1 093          |
-| 2013 | Těžba a dobývání                                     | 31 586        | -928            |
-```
-**Závěr:**  
-Mzdy nerostou rovnoměrně ve všech odvětvích – i když dlouhodobě průměrná mzda roste, některá odvětví v některých letech vykazují meziroční pokles.
+    ```bash
+    | Rok  | Odvětví                                              | Průměrná mzda | Meziroční rozdíl|
+    |------|------------------------------------------------------|---------------|-----------------|
+    | 2009 | Zemědělství, lesnictví, rybářství                    | 17 419        | -109            |
+    | 2021 | Zemědělství, lesnictví, rybářství                    | 27 378        | -1 082          |
+    | 2009 | Těžba a dobývání                                     | 28 161        | -1 093          |
+    | 2013 | Těžba a dobývání                                     | 31 586        | -928            |
+    ```
+    **Závěr:**  
+    Mzdy nerostou rovnoměrně ve všech odvětvích – i když dlouhodobě průměrná mzda roste, některá odvětví v některých letech vykazují meziroční pokles.
+
 2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd? 
 3. Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)? 
 4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)? 
