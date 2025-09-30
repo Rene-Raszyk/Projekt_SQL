@@ -52,7 +52,7 @@ Data byla vložena z těchto zdrojových tabulek:
 ## Výzkumné otázky
 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
     Analýza meziročních rozdílů mezd ukazuje, že mzdy neklesají ve všech odvětvích, ale některá vykazují meziroční pokles. Například:
-
+```bash
 +------+--------------------------------------------------------+---------------+-----------------+
 | Rok | Odvětví | Průměrná mzda | Meziroční rozdíl |
 +------+--------------------------------------------------------+---------------+-----------------+
@@ -64,7 +64,7 @@ Data byla vložena z těchto zdrojových tabulek:
 | 2016 | Těžba a dobývání | 31487 | -187 |
 | 2013 | Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu | 40531 | -1851 |
 +------+--------------------------------------------------------+---------------+-----------------+
-
+```
 **Závěr:**  
 Mzdy nerostou rovnoměrně ve všech odvětvích – i když dlouhodobě průměrná mzda roste, některá odvětví v některých letech vykazují meziroční pokles.
 2. Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd? 
