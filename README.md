@@ -53,17 +53,12 @@ Data byla vložena z těchto zdrojových tabulek:
 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
     Analýza meziročních rozdílů mezd ukazuje, že mzdy neklesají ve všech odvětvích, ale některá vykazují meziroční pokles. Například:
 ```bash
-+------+--------------------------------------------------------+---------------+-----------------+
-| Rok | Odvětví | Průměrná mzda | Meziroční rozdíl |
-+------+--------------------------------------------------------+---------------+-----------------+
-| 2009 | Zemědělství, lesnictví, rybářství | 17419 | -109 |
-| 2021 | Zemědělství, lesnictví, rybářství | 27378 | -1082 |
-| 2009 | Těžba a dobývání | 28161 | -1093 |
-| 2013 | Těžba a dobývání | 31586 | -928 |
-| 2014 | Těžba a dobývání | 31336 | -250 |
-| 2016 | Těžba a dobývání | 31487 | -187 |
-| 2013 | Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu | 40531 | -1851 |
-+------+--------------------------------------------------------+---------------+-----------------+
+| Rok  | Odvětví                                              | Průměrná mzda | Meziroční rozdíl|
+|------|------------------------------------------------------|---------------|-----------------|
+| 2009 | Zemědělství, lesnictví, rybářství                    | 17 419        | -109            |
+| 2021 | Zemědělství, lesnictví, rybářství                    | 27 378        | -1 082          |
+| 2009 | Těžba a dobývání                                     | 28 161        | -1 093          |
+| 2013 | Těžba a dobývání                                     | 31 586        | -928            |
 ```
 **Závěr:**  
 Mzdy nerostou rovnoměrně ve všech odvětvích – i když dlouhodobě průměrná mzda roste, některá odvětví v některých letech vykazují meziroční pokles.
