@@ -51,14 +51,24 @@ Data byla vložena z těchto zdrojových tabulek:
 
 ## Výzkumné otázky
 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
+
     Analýza meziročních rozdílů mezd ukazuje, že mzdy neklesají ve všech odvětvích, ale některá vykazují meziroční pokles. Například:
+
+    - Pokud ve sloupci `differences` není hodnota, znamená to, že pro daný rok nemáme předchozí rok k porovnání (data začínají rokem 2000).
+    - Pokud je hodnota v `differences` záporná, mzdy klesly oproti předchozímu roku.
+    - Pokud je hodnota v `differences` kladná, mzdy vzrostly.
     ```bash
-    | Rok  | Odvětví                                              | Průměrná mzda | Meziroční rozdíl|
-    |------|------------------------------------------------------|---------------|-----------------|
-    | 2009 | Zemědělství, lesnictví, rybářství                    | 17 419        | -109            |
-    | 2021 | Zemědělství, lesnictví, rybářství                    | 27 378        | -1 082          |
-    | 2009 | Těžba a dobývání                                     | 28 161        | -1 093          |
-    | 2013 | Těžba a dobývání                                     | 31 586        | -928            |
+    +------+-----------------------------------------------+-----------+-------------+
+    | year | industry_name                                 | payroll   | differences |
+    +------+-----------------------------------------------+-----------+-------------+
+    | 2019 | Kulturní, zábavní a rekreační činnosti        | 30242     | 2662        |
+    | 2020 | Kulturní, zábavní a rekreační činnosti        | 30611     | 369         |
+    | 2021 | Kulturní, zábavní a rekreační činnosti        | 29685     | -926        |
+    | 2000 | Ostatní činnosti                              | 10557     |             |
+    | 2001 | Ostatní činnosti                              | 11501     | 944         |
+    | 2002 | Ostatní činnosti                              | 12592     | 1091        |
+    | 2003 | Ostatní činnosti                              | 13508     | 916         |
+    +------+-----------------------------------------------+-----------+-------------+
     ```
     **Závěr:**  
     Mzdy nerostou rovnoměrně ve všech odvětvích – i když dlouhodobě průměrná mzda roste, některá odvětví v některých letech vykazují meziroční pokles.
