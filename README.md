@@ -107,4 +107,42 @@ Data byla vložena z těchto zdrojových tabulek:
 
 4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
 
+    Analýza ukazuje, že v některých letech byly meziroční nárůsty cen některých potravin výrazně vyšší než růst mezd (rozdíl byl větší než 10 %):
+    ```bash
+    +------+--------------+---------------+----------------+------------------------------------------------------------+---------------------+------------+
+    | year | product_name | product_price | inflation_rate |industry_name                                               | payroll_growth_rate | difference |
+    +------+--------------+---------------+----------------+------------------------------------------------------------+---------------------+------------+
+    | 2007 | Papriky      | 68.79         | 95             | Peněžnictví a pojišťovnictví                               | 4.68                | 90.32      |
+    | 2007 | Papriky      | 68.79         | 95             | Administrativní a podpůrné činnosti                        | 5.36                | 89.64      |
+    | 2007 | Papriky      | 68.79         | 95             | Zásobování vodou; činnosti související s odpady a sanacemi | 5.56                | 89.44      |
+    | 2007 | Papriky      | 68.79         | 95             | Ubytování, stravování a pohostinství                       | 5.85                | 89.15      |
+    +------+--------------+---------------+----------------+------------------------------------------------------------+---------------------+------------+
+    ```
+    **Závěr:** 
+    Ano, v roce 2007 byl meziroční nárůst cen potravin (například paprik) výrazně vyšší než růst mezd – rozdíl dosahoval téměř +90 %. To znamená, že kupní síla obyvatel v tomto období znatelně klesla.
+
+
 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
+
+    Na základě dat pro Českou republiku v letech 2007–2018 lze sledovat, že **růst HDP má zřetelnější vliv na růst mezd než na růst cen potravin**.
+    ```bash
+    +------+-----------------+--------------+----------+------------------+---------------+------------------+
+    | year | gdp             | gdp_growth_% | payroll  | payroll_growth_% | product_price | product_growth_% |
+    +------+-----------------+--------------+----------+------------------+---------------+------------------+
+    | 2007 | 208469898850.69 |  5.57        | 22172.84 |  6.84            | 48.59         | 6.76             |
+    | 2008 | 214070259127.50 |  2.69        | 23918.26 |  7.87            | 51.60         | 6.19             |
+    | 2009 | 204100298391.04 | -4.66        | 24674.05 |  3.16            | 48.29         | -6.42            |
+    | 2010 | 209069940963.18 |  2.43        | 25156.26 |  1.95            | 49.23         | 1.95             |
+    | 2011 | 212750323790.76 |  1.76        | 25735.95 |  2.30            | 50.88         | 3.35             |
+    | 2012 | 211080224602.86 | -0.79        | 26516.11 |  3.03            | 54.30         | 6.73             |
+    | 2013 | 210983331025.62 | -0.05        | 26103.37 | -1.56            | 57.07         | 5.10             |
+    | 2014 | 215755991069.11 |  2.26        | 26771.16 |  2.56            | 57.49         | 0.74             |
+    | 2015 | 227381745549.05 |  5.39        | 27442.68 |  2.51            | 57.18         | -0.55            |
+    | 2016 | 233151067380.88 |  2.54        | 28444.21 |  3.65            | 56.49         | -1.19            |
+    | 2017 | 245202003265.94 |  5.17        | 30231.11 |  6.28            | 61.93         | 9.63             |
+    | 2018 | 253045172103.95 |  3.20        | 32535.89 |  7.62            | 63.27         | 2.17             |
+    +------+-----------------+--------------+----------+------------------+---------------+------------------+
+    ```
+    **Závěr:** 
+    Celkově nelze tvrdit, že by HDP přímo ovlivňovalo současně mzdy i ceny potravin; z dostupných dat se ukazuje, že žádná zřejmá vazba mezi HDP a těmito ukazateli není patrná.
+
