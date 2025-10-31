@@ -48,7 +48,7 @@ Data byla vložena z těchto zdrojových tabulek:
 - `countries` – slovník států a jejich vlastností, použitý pro filtrování na evropské státy (`continent ILIKE '%Europe%'`)  
 
 
-
+ 
 ## Výzkumné otázky
 1. Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 
